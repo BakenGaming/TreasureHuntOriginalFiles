@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f3c9b982c57a67488f7d4e31a5832d1, type: 3}
+  m_Name: NoviceMinerRank
+  m_EditorClassIdentifier: 
+  rankName: Novice
+  minNumberOfEmpty: 4
+  maxNumberOfEmpty: 4
+  minNumberOfCoins: 7
+  maxNumberOfCoins: 7
+  minNumberOfPotions: 4
+  maxNumberOfPotions: 4
+  minNumberOfTraps: 13
+  maxNumberOfTraps: 13
+  minNumberOfEnemies: 14
+  maxNumberOfEnemies: 14
+  availablePotionItems:
+  - {fileID: 11400000, guid: d3345b50a4b5c4b42b76d9cbbb9aaa27, type: 2}
+  - {fileID: 11400000, guid: d3345b50a4b5c4b42b76d9cbbb9aaa27, type: 2}
+  - {fileID: 11400000, guid: d3345b50a4b5c4b42b76d9cbbb9aaa27, type: 2}
+  - {fileID: 11400000, guid: 9443e451aa368dd449ce94e3a538f4f0, type: 2}
+  availableHPUpgradeItems:
+  - {fileID: 11400000, guid: 2f7d663ce5969eb4d8fd073ffd859e14, type: 2}
+  - {fileID: 11400000, guid: 1c0529b5bc049ce41bbe1b9738f3d30a, type: 2}
+  - {fileID: 11400000, guid: 9443e451aa368dd449ce94e3a538f4f0, type: 2}
+  availableATKUpgradeItems:
+  - {fileID: 11400000, guid: ac499c7676ebc5b41b4566d12dfd6260, type: 2}
+  - {fileID: 11400000, guid: 9443e451aa368dd449ce94e3a538f4f0, type: 2}
